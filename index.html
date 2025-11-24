@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aliança Zanin</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>Aliança Zanin</header>
+
+  <nav>
+    <a href="#" onclick="showTab('home')">Início</a>
+    <a href="#" onclick="showTab('membros')">Membros</a>
+    <a href="#" onclick="showTab('donos')">Donos</a>
+    <a href="#" onclick="showTab('regras')">Regras</a>
+    <a href="#" onclick="showTab('contato')">Contato</a>
+</nav>
+
+
+ <section id="home" class="content active home-section">
+    <h2 class="digitando" id="tituloDigitado"></h2>
+    <p class="subtexto">A casa dos brabos 😎🔥</p>
+</section>
+
+    <section id="donos" class="content">
+        <h2>Donos</h2>
+
+        <div class="donos-box">
+            <h3>ı.am Vł₮ØⱤ/ᵛˢᶠ</h3>
+            <p>Número: +55 75 9873-1210</p>
+        </div>
+
+        <div class="donos-box">
+            <h3>𒅒𝔄𝔫𝔬𝔫𝔦𝔪𝔲𝔰→𝔒𝔣𝖈
+</h3>
+            <p>Número: +55 77 8119-0822</p>
+        </div>
+
+  <div class="donos-box">
+            <h3>3</h3>
+            <p>Número:</p>
+        </div>
+
+    </section>
+
+   <section id="regras" class="content">
+    <h2 class="titulo-regras">📜 Regras da Aliança</h2>
+
+    <div class="regra-card">
+        <h3>🔥 Regra 1 — Respeito é lei</h3>
+        <p>Sem ofensas, brigas, racismo, xenofobia ou qualquer desrespeito.</p>
+    </div>
+
+    <div class="regra-card">
+        <h3>📶 Regra 2 — Atividade</h3>
+        <p>Membro sumido por muito tempo será removido da aliança.</p>
+    </div>
+
+    <div class="regra-card">
+        <h3>🛡️ Regra 3 — Proteger a aliança</h3>
+        <p>Não passar informações internas para outros alianças.</p>
+    </div>
+
+    <div class="regra-card">
+        <h3>💬 Regra 4 — Comunicação</h3>
+        <p>Priorizar mensagens úteis. Evitar flood e spam.</p>
+    </div>
+
+    <div class="regra-card">
+        <h3>💬 Regra 5 — Não ser judas</h3>
+        <p>Não ser judas, não sair de uma aliança para outra.</p>
+    </div>
+</section>
+
+
+   <section id="contato" class="content">
+    <h2>Contato</h2>
+    <p>Clique no botão abaixo para falar diretamente com a administração da Aliança Zanin.</p>
+
+    <a class="zap-btn" href="https://wa.me/557598731210" target="_blank">
+        💬 Falar no WhatsApp
+    </a>
+</section>
+
+    <script>
+        function showTab(tab) {
+            document.querySelectorAll('.content').forEach(div => {
+                div.classList.remove('active');
+            });
+            document.getElementById(tab).classList.add('active');
+        }
+    </script>
+
+</body>
+</html>
