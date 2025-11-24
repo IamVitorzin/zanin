@@ -1,0 +1,3 @@
+as coisas tudo na index.html 
+e estilo dos botoes do site etc tudo na style.css 
+simples po
